@@ -8,6 +8,11 @@
         width:  350px;
       
     }
+
+    .d-flex {
+        display: none !important;
+    }
+
   }
 
 @media screen and (max-width: 485px){
@@ -21,7 +26,14 @@
     div.formFix {
         width: 350px;
     }
+
+    .d-flex {
+        display: none !important;
+    }
+
   }
+
+
 
 /*form tamanho*/
 
@@ -33,16 +45,24 @@
 /* class colors*/
 
 .body-color{
-    background-color: #F7F7FF;
+    background-color: #ffffff;
 }
 
 .bg-agencia2{
-    background-color: #6279B8;
+    background-color: #9c9cfa;
 }
 
 .bg-agencia{
     background-color: #1B1F3B;
 }
+
+.bg-transparente{
+    background-color: rgba(199, 218, 253, 0.5);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 
 
 /*linha a baixo do texto de login tirada*/
@@ -105,3 +125,12 @@ section.le{
      color: rgb(255, 255, 255);
     -webkit-text-stroke: 1px rgb(0, 0, 0);
 }
+
+body{
+    background: #3399ff;
+  }
+  
+  .col:hover{
+    margin-bottom: 10px;
+  }
+  
